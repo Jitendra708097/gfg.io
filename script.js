@@ -19,6 +19,7 @@ button.addEventListener('click',(event)=>{
   })
   .catch((error)=>{
       // console.log('Error',error)
+      const profile = document.getElementById('profile-info');
       profile.innerHTML = error;
   });
 })
