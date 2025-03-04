@@ -47,6 +47,7 @@ button {
     color: green;
     border: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #profile-info {

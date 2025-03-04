@@ -1,9 +1,9 @@
 const user_name0 = document.getElementById('username');
-const user_name = user_name0.value;
-
 const button = document.getElementById('button');
 
 button.addEventListener('click',()=>{
+  const user_name = user_name0.value;
+
   const detail = fetch(`https://geeks-for-geeks-api.vercel.app/${user_name}`);
   // console.log(detail);
   detail.then((data)=>{
