@@ -1,5 +1,5 @@
 const user_name0 = document.getElementById('username');
-const button = document.getElementById('button');
+const button = document.querySelector('button');
 
 button.addEventListener('click',()=>{
   const user_name = user_name0.value;
@@ -13,10 +13,11 @@ button.addEventListener('click',()=>{
 
           const profile = document.getElementById('profile-info');
           profile.innerHTML = response.info.userName;
+          console.log(response.info.userName);
         })
   })
   .catch((error)=>{
-      console.log(error)
+      console.log('Error',error)
   });
 })
 
