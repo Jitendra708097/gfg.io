@@ -18,7 +18,18 @@ button.addEventListener('click',(event)=>{
         })
   })
   .catch((error)=>{
-      console.log('Error',error)
+      // console.log('Error',error)
+      profile.innerHTML = error;
   });
 })
+
+// const detail = fetch(`https://geeks-for-geeks-api.vercel.app/jitendrasha6vrm`);
+// // console.log(detail);
+// detail.then((data)=>{
+//       const body = data.json();
+//       body.then((response)=>{
+//         console.log(response);
+//         console.log(response.info.fullName);
+//       });
+// });
 
