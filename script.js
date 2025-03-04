@@ -13,7 +13,7 @@ button.addEventListener('click',()=>{
 
           const profile = document.getElementById('profile-info');
           profile.innerHTML = response.info.userName;
-          console.log(response.info.userName);
+          // console.log(response.info.userName);
         })
   })
   .catch((error)=>{
