@@ -1,4 +1,4 @@
-const user_name0 = document.getElementById('username');
+const user_name0 = document.querySelector('input');
 const button = document.querySelector('button');
 
 button.addEventListener('click',()=>{
