@@ -13,7 +13,7 @@ button.addEventListener('click',(event)=>{
           // console.log(response);
 
           const profile = document.getElementById('profile-info');
-          profile.innerHTML = `${response.info.userName}`;
+          profile.innerHTML = response.info.userName;
           // console.log(response.info.userName);
         })
   })
@@ -24,13 +24,4 @@ button.addEventListener('click',(event)=>{
   });
 })
 
-// const detail = fetch(`https://geeks-for-geeks-api.vercel.app/jitendrasha6vrm`);
-// // console.log(detail);
-// detail.then((data)=>{
-//       const body = data.json();
-//       body.then((response)=>{
-//         console.log(response);
-//         console.log(response.info.fullName);
-//       });
-// });
 

@@ -71,6 +71,18 @@ button {
     margin: 0 0 10px 0;
 }
 
+.all
+{
+    display: inline;
+    border: 3px solid greenyellow;
+    display: flex;
+    justify-self: start;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: yellow;
+    color: #3a3939;
+}
+
 /* Media Queries for Responsiveness */
 @media (max-width: 600px) {
     .container {
